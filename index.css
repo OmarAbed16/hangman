@@ -1,0 +1,70 @@
+.cls-1,
+.cls-2 {
+  fill: none;
+}
+
+.cls-1,
+.cls-2,
+.cls-3 {
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.cls-2,
+.cls-3 {
+  fill-rule: evenodd;
+}
+
+.cls-3 {
+  fill: #293040;
+}
+
+
+
+main{
+padding: 20px;
+    background-color: antiquewhite;
+}
+
+#container{
+    display: flex;
+    height: 500px;
+}
+
+
+#container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 40%;
+    padding: 0px 20%;
+}
+
+#container2 input{
+    width: 50px;
+    height: 50px;
+    font-size: 150%;
+}
+#draw{
+    background-color: rgb(187, 189, 190);
+}
+
+
+#head,#left,#right,#leg-left,#leg-right,#body{
+    display: none;
+}
+
+
+#reset{
+    margin: 10px;
+    background-color:#3d3d3d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+cursor: pointer;
+}
+
+#reset:hover{
+    background-color:#3d3d3dd2;
+}
